@@ -1,3 +1,5 @@
 *.pub
 **/.terraform
 **/terraform.state*
+
+demo-terraform4/dev.tfvars
