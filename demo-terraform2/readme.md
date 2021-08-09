@@ -1,0 +1,1 @@
+Almacenamiento del state en S3
