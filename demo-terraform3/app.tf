@@ -6,7 +6,10 @@ provider "aws" {
 
 # Llamar el modulo que se quiere utilizar
 module "app-juancsr" {
-    source = "./modules/instance"
+    # local module
+    # source = "./modules/instance"
+    # remote module
+    source = "github.com/juancsr/terraform-platzi/demo-terraform3/modules/instance"
     # variables de los resources
     ami_id = var.ami_id
     instance_type = var.instance_type
