@@ -9,7 +9,7 @@ module "app-juancsr" {
     # local module
     # source = "./modules/instance"
     # remote module
-    source = "github.com/juancsr/terraform-platzi/demo-terraform3/modules/instance"
+    source = "github.com/juancsr/terraform-platzi/demo-terraform3/modules/instance" ## fetching from s3
     # variables de los resources
     ami_id = var.ami_id
     instance_type = var.instance_type
